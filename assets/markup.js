@@ -66,21 +66,6 @@ const images = [
 <body>
   <h1>Minimalist Frame - B</h1>
   
-  <script>
-    const currentDate = new Date();
-    currentDate.setDate(currentDate.getDate() + 1); // Increment date by 1
-
-    const year = currentDate.getFullYear();
-    const month = String(currentDate.getMonth() + 1).padStart(2, '0');
-    const day = String(currentDate.getDate()).padStart(2, '0');
-
-    const imageUrl = \`https://picsum.photos/seed/\${year}\${month}\${day}/200\`; // Adjust image size as needed
-
-    document.querySelector('meta[property="fc:frame:image"]').setAttribute('content', imageUrl);
-    document.querySelector('meta[property="og:image"]').setAttribute('content', imageUrl);
-
-  </script>
-  
 </body>
 </html>`
 
