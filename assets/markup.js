@@ -31,6 +31,16 @@ export const a = `<html lang="en">
 
 export const b = `<html lang="en">
 <head>
+const images = [
+    "https://f4.bcbits.com/img/a0600385591_16.jpg",
+    "https://f4.bcbits.com/img/a0600385591_16.jpg",
+    "https://f4.bcbits.com/img/a0600385591_16.jpg",
+    // Add more image URLs as needed
+  ];
+
+  // Create the markup for the image
+  const imageUrl = images[2];
+  
   <title>Minimalist Frame - B</title>
   <meta property="fc:frame" content="vNext" />
   <meta
