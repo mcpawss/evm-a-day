@@ -92,7 +92,7 @@ export const c = `<html lang="en">
   />
   <meta
     property="fc:frame:post_url"
-    content="https://minimalist-frame.vercel.app/api/frame-c"
+    content="https://evm-a-day.vercel.app/api/frame-c"
   />
 </head>
 <body>
