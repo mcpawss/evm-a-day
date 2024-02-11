@@ -35,9 +35,9 @@ export const b = `<html lang="en">
   <meta property="fc:frame" content="vNext" />
   <meta
     property="fc:frame:image"
-    content="https://minimalist-frame.vercel.app/img/b.gif"
+    content=""
   />
-  <meta property="og:image" content="https://minimalist-frame.vercel.app/img/b.png" />
+  <meta property="og:image" content="g" />
   <meta property="fc:frame:image:aspect_ratio" content="1:1" />
   <meta property="fc:frame:button:1" content="Go to A" />
   <meta property="fc:frame:button:2" content="Go to C" />
@@ -54,6 +54,21 @@ export const b = `<html lang="en">
 </head>
 <body>
   <h1>Minimalist Frame - B</h1>
+  
+  <script>
+    const currentDate = new Date();
+    currentDate.setDate(currentDate.getDate() + 1); // Increment date by 1
+
+    const year = currentDate.getFullYear();
+    const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+    const day = String(currentDate.getDate()).padStart(2, '0');
+
+    const imageUrl = \`https://picsum.photos/seed/\${year}\${month}\${day}/200\`; // Adjust image size as needed
+
+    document.querySelector('meta[property="fc:frame:image"]').setAttribute('content', imageUrl);
+    document.querySelector('meta[property="og:image"]').setAttribute('content', imageUrl);
+  </script>
+  
 </body>
 </html>`
 
