@@ -21,7 +21,7 @@ export const a = `<html lang="en">
   />
   <meta
     property="fc:frame:post_url"
-    content="https://minimalist-frame.vercel.app/api/frame-a"
+    content="https://evm-a-day.vercel.app/api/frame-a"
   />
 </head>
 <body>
@@ -49,7 +49,7 @@ export const b = `<html lang="en">
   />
   <meta
     property="fc:frame:post_url"
-    content="https://minimalist-frame.vercel.app/api/frame-b"
+    content="https://evm-a-day.vercel.app/api/frame-b"
   />
 </head>
 <body>
