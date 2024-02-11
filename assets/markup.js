@@ -35,9 +35,9 @@ export const b = `<html lang="en">
   <meta property="fc:frame" content="vNext" />
   <meta
     property="fc:frame:image"
-    content=""
+    content="https://minimalist-frame.vercel.app/img/a.png"
   />
-  <meta property="og:image" content="" />
+  <meta property="og:image" content="https://minimalist-frame.vercel.app/img/a.png" />
   <meta property="fc:frame:image:aspect_ratio" content="1:1" />
   <meta property="fc:frame:button:1" content="Go to A" />
   <meta property="fc:frame:button:2" content="Go to C" />
