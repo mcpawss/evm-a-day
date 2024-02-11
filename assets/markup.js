@@ -35,9 +35,10 @@ export const b = `<html lang="en">
   <meta property="fc:frame" content="vNext" />
   <meta
     property="fc:frame:image"
-    content="https://minimalist-frame.vercel.app/img/a.png"
+    content="${imageUrl}"
   />
-  <meta property="og:image" content="https://minimalist-frame.vercel.app/img/a.png" />
+  <meta property="og:image" content="${imageUrl}"
+ />
   <meta property="fc:frame:image:aspect_ratio" content="1:1" />
   <meta property="fc:frame:button:1" content="Go to A" />
   <meta property="fc:frame:button:2" content="Go to C" />
@@ -67,6 +68,7 @@ export const b = `<html lang="en">
 
     document.querySelector('meta[property="fc:frame:image"]').setAttribute('content', imageUrl);
     document.querySelector('meta[property="og:image"]').setAttribute('content', imageUrl);
+
   </script>
   
 </body>
